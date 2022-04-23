@@ -1,7 +1,3 @@
-/* AUTOMATIVE DOOR AND AUTOMATIVE GARAGE AND LEVEL CONTROL */
-//PROGRAMME WITH MIKROC AND PROTEUS 8
-//HARDWARE : PIC16F877A AND DC MOTORS
-//********************************************************************************//
 
 #define start portb.b0
 #define entry_sensor portb.b1
@@ -10,9 +6,10 @@
 #define close_end portb.b4
 #define motor_open portc.b0
 #define motor_close portc.b1
+
 void main() {
 trisc=0; portc=0 ;            //define portc as output
-trisb=0b00011111; portb=0;    //define ports B0 to B4 as input
+trisb=0x11; portb=0;    //define ports B0 to B4 as input
 
 while(close_end == 0) motor_close=1; //check if the door is closed ??
 motor_close=0;                     //stop closing
