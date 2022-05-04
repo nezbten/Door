@@ -1,11 +1,11 @@
 0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\pc\Desktop\door\AUTOMATIC_DOOR\CODE_DOOR\CODE_DOOR.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\pc\Desktop\door\AUTOMATIC_DOOR\CODE_DOOR\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "CODE_DOOR.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
 hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
 diagnostics: 0	122	Compilation Started	CODE_DOOR.c
-diagnostics: 77	123	Compiled Successfully	CODE_DOOR.c
+diagnostics: 108	123	Compiled Successfully	CODE_DOOR.c
 diagnostics: 0	127	All files Compiled in 62 ms	 
-hint: 0	1144	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 350 (99%)	Used RAM (bytes): 2 (1%)  Free RAM (bytes): 350 (99%)
-hint: 0	1144	Used ROM (program words): 11 (1%)  Free ROM (program words): 8181 (99%)	Used ROM (program words): 11 (1%)  Free ROM (program words): 8181 (99%)
+hint: 0	1144	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)
+hint: 0	1144	Used ROM (program words): 96 (1%)  Free ROM (program words): 8096 (99%)	Used ROM (program words): 96 (1%)  Free ROM (program words): 8096 (99%)
 diagnostics: 0	125	Project Linked Successfully	CODE_DOOR.mcppi
-diagnostics: 0	128	Linked in 0 ms	 
-diagnostics: 0	129	Project 'CODE_DOOR.mcppi' completed: 78 ms	 
-diagnostics: 0	103	Finished successfully: 23 avr. 2022, 14:18:26	CODE_DOOR.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'CODE_DOOR.mcppi' completed: 94 ms	 
+diagnostics: 0	103	Finished successfully: 04 mai 2022, 17:00:23	CODE_DOOR.mcppi
